@@ -1,0 +1,17 @@
+.mx-auto img{
+    width: 150px;
+}
+#botonera{
+    background: linear-gradient(to right, black, rgb(51, 46, 46), rgb(124, 108, 108));
+    font-size: map-get($map: $fontsize , $key: "6"); 
+    color: $fc-white;
+    ul{
+        li{ 
+             a{
+                &:hover{
+                font-weight: $fw-600;
+                }
+            }       
+        }   
+    }
+} 
